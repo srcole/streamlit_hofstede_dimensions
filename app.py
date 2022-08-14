@@ -171,7 +171,7 @@ st.set_page_config(
 )
 
 st.title("Hofstede's cultural dimensions explorer")
-st.write("[Dimension definitions](https://www.mindtools.com/pages/article/newLDR_66.htm), [data source](https://geerthofstede.com/research-and-vsm/dimension-data-matrix/)")
+st.write("Links: [[Dimension definitions]](https://www.mindtools.com/pages/article/newLDR_66.htm), [[Data source]](https://geerthofstede.com/research-and-vsm/dimension-data-matrix/), [[Freakonomics episode]](https://freakonomics.com/podcast/the-pros-and-cons-of-americas-extreme-individualism-ep-470-2/)")
 st.header("Part 1 - Define your culture & rank countries")
 col1, col2, col3 = st.columns([1, 1, 3])
 
