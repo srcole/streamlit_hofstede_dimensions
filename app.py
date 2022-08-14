@@ -177,9 +177,9 @@ col1, col2, col3 = st.columns([1, 1, 3])
 
 # Define preference in 1st column
 dim_self = {}
-col1.text('Ideal dimension values')
+col1.text('Preferred dimension values')
 for dim_name, dim_name_full in DIM_NAMES.items():
-    dim_self[dim_name] = col1.slider(f"{dim_name_full}, ideal", 0, 100, DIM_SELF_DEFAULTS[dim_name], 5)
+    dim_self[dim_name] = col1.slider(dim_name_full, 0, 100, DIM_SELF_DEFAULTS[dim_name], 5)
 
 # Define weights in 2nd column
 dim_weights = {}
